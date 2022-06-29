@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --text-color: bisque;
+    --bg-color: rgb(1, 36, 12);
+}
+
+
+.content {
+    display: flex;
+}
+
+.image {
+    background-image: url(images/bg-image.jpg);
+    width: 40vw;
+    height: 100vh;
+    background-size: auto;
+    background-position: center;
+    
+
+}
+.left {
+    width: 40vw;
+    height: 100vh;
+}
+.right {
+    background-color: var(--bg-color);
+    width: 60vw;
+    height: 100vh;
+}
+
+.logobox {
+    background-color: rgba(4, 27, 13, 0.89);
+    width: 40vw;
+    height: 15vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    top: 30%;
+    color: white;
+    text-align: center;
+}
+.logo {
+    position:relative;
+    width: 100px;
+    height: 100px;
+}
+
+.text {
+    background-color: rgb(1, 36, 12);
+    text-align: left;
+    padding: 10%;
+    margin-bottom: 5%;
+    color:bisque;
+    font-size: 20px;
+}
+.bottom-text {
+    position: relative;
+    background-color: rgba(4, 27, 13, 0.473);
+    bottom: 20px;
+    color: bisque;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: bisque;
+    padding: 20px;
+}
+
+a {
+    appearance: none;
+    color: inherit;
+}
+.input-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 30vw;
+    margin: auto;
+    gap: 5px;
+    background-color: var(--bg-color);
+    border-top: 2px solid bisque;
+    border-bottom: 2px solid bisque;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.input-box {
+    font-size: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    text-transform: uppercase;
+    color:bisque
+}
+
+input {
+    border-radius: 3px;
+    background-color:rgba(171, 247, 184, 0.274);
+    border: 1px solid rgba(128, 128, 128, 0.356);
+}
+
+button {
+    padding: 10px 30px;
+    margin: 10px;
+    background-color:rgb(4, 83, 29);
+    border-radius: 3px;
+    color: bisque;
+    text-align: center;
+}
+
+.button-signup {
+    text-align: center;
+    color:bisque;
+}
